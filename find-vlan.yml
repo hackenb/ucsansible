@@ -28,7 +28,7 @@
       debug:
         msg: "{{ response }}"
 
-    - name: Confirm if vlan 15 is present
+    - name: Confirm if vlan 222 is present
       ucs_vlan_find:
         <<: *login_info
         vlanid: '222'
